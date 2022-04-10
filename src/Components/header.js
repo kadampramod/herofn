@@ -70,7 +70,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'POST',
-            url: 'https://afternoon-stream-71925.herokuapp.com/signUp',
+            url: 'https://herobnk.herokuapp.com/signUp',
             headers: { 'Content-Type': 'application/json' },
             data: signUpObj
         })
@@ -100,7 +100,7 @@ class Header extends React.Component {
         };
         axios({
             method: 'GET',
-            url: 'https://afternoon-stream-71925.herokuapp.com/login',
+            url: 'https://herobnk.herokuapp.com/login',
             headers: { 'Content-Type': 'application/json' },
             data: loginObj
         })
