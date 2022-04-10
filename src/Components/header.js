@@ -175,7 +175,7 @@ class Header extends React.Component {
                         <div class="login-heading">Login</div>
                         <div style={{ marginBottom: '2px' }}>
                             <GoogleLogin
-                                clientId="745717577080-5uo0jrq7g23qqioe155h28u94a0co1cj.apps.googleusercontent.com"
+                                clientId="109422660864-k67mvp311bi0sf74la4fbf0m7idpme2d.apps.googleusercontent.com"
                                 buttonText="Continue with Gmail"
                                 onSuccess={this.responseGoogle}
                                 onFailure={this.responseGoogle}
