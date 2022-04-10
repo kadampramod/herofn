@@ -55,7 +55,7 @@ class Details extends React.Component {
     handleOrder = (resId) => {
         axios({
             method: 'GET',
-            url: `https://afternoon-stream-71925.herokuapp.com/menuItem/${resId}`,
+            url: `https://herobnk.herokuapp.com/menuItem/${resId}`,
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
@@ -131,7 +131,7 @@ class Details extends React.Component {
     }
 
     getData = (data) => {
-        return fetch(`https://afternoon-stream-71925.herokuapp.com/payment`, {
+        return fetch(`https://herobnk.herokuapp.com/payment`, {
             method: "POST",
             headers: {
                 Accept: "application/json",
