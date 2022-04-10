@@ -32,7 +32,7 @@ componentDidMount() {
 
     axios({
         method: 'POST',
-        url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+        url: 'https://herobnk.herokuapp.com/filter',
         headers: { 'Content-Type': 'application/json' },
         data: filterObj
     })
@@ -43,7 +43,7 @@ componentDidMount() {
 
     axios({
         method: 'GET',
-        url: 'https://afternoon-stream-71925.herokuapp.com/locations',
+        url: 'https://herobnk.herokuapp.com/locations',
         headers: { 'Content-Type': 'application/json' }
     })
         .then(response => {
@@ -68,7 +68,7 @@ handleSortChange = (sort) => {
 
     axios({
         method: 'POST',
-        url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+        url: 'https://herobnk.herokuapp.com/filter',
         headers: { 'Content-Type': 'application/json' },
         data: filterObj
     })
@@ -94,7 +94,7 @@ handleCostChange = (lcost, hcost) => {
 
     axios({
         method: 'POST',
-        url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+        url: 'https://herobnk.herokuapp.com/filter',
         headers: { 'Content-Type': 'application/json' },
         data: filterObj
     })
@@ -121,7 +121,7 @@ handleLocationChange = (event) => {
 
     axios({
         method: 'POST',
-        url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+        url: 'https://herobnk.herokuapp.com/filter',
         headers: { 'Content-Type': 'application/json' },
         data: filterObj
     })
@@ -154,7 +154,7 @@ if(index == -1){
 
     axios({
         method: 'POST',
-        url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+        url: 'https://herobnk.herokuapp.com/filter',
         headers: { 'Content-Type': 'application/json' },
         data: filterObj
     })
@@ -181,7 +181,7 @@ if(index == -1){
         
             axios({
                 method: 'POST',
-                url: 'https://afternoon-stream-71925.herokuapp.com/filter',
+                url: 'https://herobnk.herokuapp.com/filter',
                 headers: { 'Content-Type': 'application/json' },
                 data: filterObj
             })
