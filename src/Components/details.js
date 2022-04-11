@@ -43,7 +43,7 @@ class Details extends React.Component {
 
         axios({
             method: 'GET',
-            url: `https://afternoon-stream-71925.herokuapp.com/restaurants/${restaurant}`,
+            url: `https://herobnk.herokuapp.com/restaurants/${restaurant}`,
             headers: { 'Content-Type': 'application/json' }
         })
             .then(response => {
